@@ -1,5 +1,5 @@
-The Twelve Factors
-==================
+The Twelve Factor Firmware App
+==============================
 
 ## [I. Codebase](./codebase)
 ### One codebase tracked in revision control, many deploys
