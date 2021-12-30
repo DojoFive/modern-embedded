@@ -6,12 +6,15 @@ body {
   font-size: 12pt;
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
   padding: 0;
   margin: 0;
-}  
+}
 
-h1, h2 {
+h1,
+h2 {
   line-height: 1.25em;
 }
 
@@ -30,7 +33,7 @@ header {
 
 header h1 a {
   background: url(/images/symbol.png) top center no-repeat;
-  color: #FFFFFF;
+  color: #ffffff;
   display: block;
   margin-top: 0.25em;
   padding-top: 100px;
@@ -50,18 +53,21 @@ article {
   padding-top: 8pt;
 }
 
-article, nav {
+article,
+nav {
   margin: 0 auto;
   text-align: justify;
 }
 
-article p a, article li a {
+article p a,
+article li a {
   text-decoration: none;
   border-bottom: 1px dashed #444;
   color: #000;
 }
 
-article p a:hover, article li a:hover {
+article p a:hover,
+article li a:hover {
   color: #337;
 }
 
@@ -123,7 +129,8 @@ nav #next {
 nav #prev {
   float: left;
 }
-nav #next a, nav #prev a {
+nav #next a,
+nav #prev a {
   display: block;
   font-size: 19pt;
   text-decoration: none;
@@ -139,7 +146,8 @@ code {
 table {
   padding-left: 32pt;
 }
-td, th {
+td,
+th {
   padding-right: 12pt;
   padding-bottom: 4pt;
 }
@@ -151,7 +159,7 @@ footer {
   padding-top: 24pt;
   padding-bottom: 16pt;
   text-align: center;
-  padding-right: 64pt;
+  padding: 20pt 64pt;
   min-height: 56pt;
 }
 
