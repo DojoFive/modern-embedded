@@ -6,23 +6,13 @@ A modern firmware project has a number of assets which need to be easily found a
 - Requirements
 - Design Notes
 - Meeting Notes
-- Team
-- Communication Pattern
+- Team Roster and Contact Information
+- Team Communication Expectations
+- Definition of Ready, Definition of Done
 
-All developers on a modern embedded project have a single starting point to find all relevant assets. This often takes the form of a Wiki such as [Confluence] or [Notion]. This includes 
+All developers on a modern embedded project have a single starting point to find all relevant assets. This often takes the form of a Wiki such as [Confluence] or [Notion], or also can be a README.md in the root of the source code respository with appropriate links.
 
-A modern embedded project's source code is always tracked in a version control system such as [Git](http://git-scm.com/). A copy of the revision tracking database is known as a *code repository*, often shortened to *code repo* or just *repo*.
+Modern embedded projects prefer to put documentation in the most valuable format for the project. Sometimes this is a picture or a diagram, other times it is in a metaformat that can generate a picture or diagram. Word documents or other binary formats make it difficult to version and trace content within them. A markdown or text format is preferred as long as usability or readability is not lost.
 
-A *codebase* is any single repo (in a centralized revision control system like Subversion), or any set of repos who share a root commit (in a decentralized revision control system like Git).
-
-![One codebase maps to many deploys](/images/codebase-deploys.png)
-
-There is always a one-to-one correlation between the codebase and the app:
-
-* If there are multiple codebases, it's not an app -- it's a distributed system.  Each component in a distributed system is an app, and each can individually comply with twelve-factor.
-* Multiple apps sharing the same code is a violation of twelve-factor.  The solution here is to factor shared code into libraries which can be included through the [dependency manager](./dependencies).
-
-There is only one codebase per app, but there will be many deploys of the app.  A *deploy* is a running instance of the app.  This is typically a production site, and one or more staging sites.  Additionally, every developer has a copy of the app running in their local development environment, each of which also qualifies as a deploy.
-
-The codebase is the same across all deploys, although different versions may be active in each deploy.  For example, a developer has some commits not yet deployed to staging; staging has some commits not yet deployed to production.  But they all share the same codebase, thus making them identifiable as different deploys of the same app.
+Requirements are covered in more detail in another section, but it is critical that the team has a clear, accessible, searchable, and up-to-date reference of the product requirements. Misalignment on a team is one of the easiest ways for a project to be unsuccessful.
 
