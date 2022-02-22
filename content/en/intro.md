@@ -1,12 +1,6 @@
 Introduction
 ============
 
-In the modern era, software is commonly delivered as a service: called *web apps*, or *software-as-a-service*.  The twelve-factor app is a methodology for building software-as-a-service apps that:
+This site provides the definition of what we believe to be a modern embedded project.
 
-* Use **declarative** formats for setup automation, to minimize time and cost for new developers joining the project;
-* Have a **clean contract** with the underlying operating system, offering **maximum portability** between execution environments;
-* Are suitable for **deployment** on modern **cloud platforms**, obviating the need for servers and systems administration;
-* **Minimize divergence** between development and production, enabling **continuous deployment** for maximum agility;
-* And can **scale up** without significant changes to tooling, architecture, or development practices.
-
-The twelve-factor methodology can be applied to apps written in any programming language, and which use any combination of backing services (database, queue, memory cache, etc).
+It is intended to be a living definition for the community, so please contribute at [GitHub](https://www.github.com/dojofive/modern-embedded).

@@ -1,7 +1,17 @@
-## I. Codebase
-### One codebase tracked in revision control, many deploys
+## I. One Source
+### A single source for all artifacts, each with versioning and traceability.
 
-A twelve-factor app is always tracked in a version control system, such as [Git](http://git-scm.com/), [Mercurial](https://www.mercurial-scm.org/), or [Subversion](http://subversion.apache.org/).  A copy of the revision tracking database is known as a *code repository*, often shortened to *code repo* or just *repo*.
+A modern firmware project has a number of assets which need to be easily found and tracked:
+- Source Code
+- Requirements
+- Design Notes
+- Meeting Notes
+- Team
+- Communication Pattern
+
+All developers on a modern embedded project have a single starting point to find all relevant assets. This often takes the form of a Wiki such as [Confluence] or [Notion]. This includes 
+
+A modern embedded project's source code is always tracked in a version control system such as [Git](http://git-scm.com/). A copy of the revision tracking database is known as a *code repository*, often shortened to *code repo* or just *repo*.
 
 A *codebase* is any single repo (in a centralized revision control system like Subversion), or any set of repos who share a root commit (in a decentralized revision control system like Git).
 
