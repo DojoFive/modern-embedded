@@ -19,12 +19,18 @@ h3 {
   border-bottom: 2px solid var(--primary);
   font-family: "Open Sans", sans-serif !important;
 }
+
 section,
 section.concrete {
   padding: 40px 0;
 }
+
 section.concrete {
   margin-top: 0;
   background: var(--lightGray);
   border-top: var(--highlight) 8px solid;
+}
+
+section.concrete h2 {
+  margin-top: 22px;
 }
