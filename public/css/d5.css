@@ -40,3 +40,12 @@ nav {
   margin: 0 auto;
   text-align: left;
 }
+
+/*--Header--*/
+header,
+footer {
+  background: #0a0000;
+}
+header h1 a {
+  font-weight: 600;
+}
