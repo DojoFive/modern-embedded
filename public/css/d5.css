@@ -17,7 +17,7 @@ h1,
 h2,
 h3 {
   border-bottom: 2px solid var(--primary);
-  font-family: "Open Sans", sans-serif !important;
+  font-family: "IBM Plex Sans", sans-serif !important;
 }
 
 section,
@@ -33,4 +33,10 @@ section.concrete {
 
 section.concrete h2 {
   margin-top: 22px;
+}
+
+article,
+nav {
+  margin: 0 auto;
+  text-align: left;
 }
