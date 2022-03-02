@@ -1,0 +1,51 @@
+:root {
+  --secondary: #fff;
+  --lighterBlue: #637b94;
+  --highlight: rgb(244, 162, 9);
+  --lightGray: rgba(12, 12, 12, 0.15);
+  --darkGray: #424141;
+  --primaryFont: "IBM Plex Sans", sans-serif;
+  --secondaryFont: "Open Sans", sans-serif;
+}
+
+body {
+  background-color: var(--secondary);
+  font-family: "IBM Plex Sans", sans-serif !important;
+}
+
+h1,
+h2,
+h3 {
+  border-bottom: 2px solid var(--primary);
+  font-family: "IBM Plex Sans", sans-serif !important;
+}
+
+section,
+section.concrete {
+  padding: 40px 0;
+}
+
+section.concrete {
+  margin-top: 0;
+  background: var(--lightGray);
+  border-top: var(--highlight) 8px solid;
+}
+
+section.concrete h2 {
+  margin-top: 22px;
+}
+
+article,
+nav {
+  margin: 0 auto;
+  text-align: left;
+}
+
+/*--Header--*/
+header,
+footer {
+  background: #0a0000;
+}
+header h1 a {
+  font-weight: 600;
+}
