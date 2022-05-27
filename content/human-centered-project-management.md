@@ -1,6 +1,5 @@
 ---
 title: "Human-Centered Project Management"
-draft: true
 summary: "*Expectations and risk management processes that value humans and their interactions as key to innovation.*"
 id: 5
 ---

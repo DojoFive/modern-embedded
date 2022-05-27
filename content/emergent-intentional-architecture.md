@@ -1,6 +1,5 @@
 ---
 title: "Emergent, Intentional Architecture"
-draft: true
 summary: "*Architecture matching the inherent problem to be solved, evolved and documented as the project evolves.*"
 id: 7
 ---

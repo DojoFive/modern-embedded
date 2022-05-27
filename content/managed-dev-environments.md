@@ -1,6 +1,5 @@
 ---
 title: "Managed Environments"
-draft: true
 summary: "*Exactly the same environment for all builds, fast and verifiable.*"
 id: 2
 ---

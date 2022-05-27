@@ -1,6 +1,5 @@
 ---
 title: "Automated"
-draft: true
 summary: "*Automated pipelines for all development activities, allowing rapid, repeatable, and reliable progress.*"
 id: 3
 ---

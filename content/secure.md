@@ -1,6 +1,5 @@
 ---
 title: "Secure"
-draft: true
 summary: "*Security as a first-class requirement, accurately implemented.*"
 id: 8
 ---

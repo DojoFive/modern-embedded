@@ -1,6 +1,5 @@
 ---
 title: "Effective Requirements"
-draft: true
 summary: "*Project goals and requirements clearly defined, documented, and prioritized with traceability through verification and validation.*"
 id: 6
 ---

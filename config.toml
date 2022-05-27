@@ -1,4 +1,4 @@
-baseURL = 'http://example.org/'
+baseURL = 'https://www.modernembedded.com/'
 languageCode = 'en-us'
 title = 'Modern Embedded'
 theme = 'hyde'

@@ -1,6 +1,5 @@
 ---
 title: "Effective Testing"
-draft: true
 summary: "*Testing that is appropriate, effective, and evolves with the project.*"
 id: 4
 ---

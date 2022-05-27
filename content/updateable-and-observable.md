@@ -1,6 +1,5 @@
 ---
 title: "Updateable and Observable"
-draft: true
 summary: "*Able to observe and update the design and implementation during the entire product cycle.*"
 id: 10
 ---
