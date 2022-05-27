@@ -1,0 +1,17 @@
+{{ define "main" -}}
+<div class="posts">
+{{ range .Site.RegularPages.ByParam "id" -}}
+<article class="post">
+  <h1 class="post-title">
+    <a href="{{ .Permalink }}">{{ .Title }}</a>
+  </h1>
+  {{ .Summary }}
+  {{ if .Truncated }}
+  <div class="read-more-link">
+    <a href="{{ .RelPermalink }}">Read More…</a>
+  </div>
+  {{ end }}
+</article>
+{{- end }}
+</div>
+{{- end }}

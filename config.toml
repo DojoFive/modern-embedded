@@ -1,5 +1,14 @@
 baseURL = 'http://example.org/'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = 'Modern Embedded'
 theme = 'hyde'
 googleAnalytics = 'G-HE4TJE1VBX'
+
+[params]
+  description = "An opinionated community reference for what it means to practice modern embedded development."
+  copyright = "Made with ❤️ by Dojo Five"
+
+[Menus]
+  main = [
+      # {Name = "", URL = ""},
+  ]
