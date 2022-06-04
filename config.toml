@@ -3,11 +3,11 @@ languageCode = 'en-us'
 title = 'Modern Embedded'
 theme = 'hyde'
 googleAnalytics = 'G-HE4TJE1VBX'
-custom_css = ['css/hyde.css']
 
 [params]
   description = "An opinionated community reference for what it means to practice modern embedded development."
   copyright = "Made with ❤️ by Dojo Five"
+  # themeColor = "theme-base-dojofive"
 
 [Menus]
   main = [
