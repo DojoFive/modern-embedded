@@ -1,12 +1,11 @@
 baseURL = 'https://www.modernembedded.com/'
-languageCode = 'en-us'
+locale = 'en-us'
 title = 'Modern Embedded'
 theme = 'hyde'
 googleAnalytics = 'G-HE4TJE1VBX'
 
 [params]
   description = "An opinionated community reference for what it means to practice modern embedded development."
-  copyright = "Made with ❤️ by Dojo Five"
   # themeColor = "theme-base-dojofive"
 
 [Menus]
